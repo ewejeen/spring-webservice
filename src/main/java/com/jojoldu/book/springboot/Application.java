@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("com.jojoldu.book.springboot.domain.posts")
+@EnableJpaRepositories("com.jojoldu.book.springboot.domain")
 @EnableJpaAuditing
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
